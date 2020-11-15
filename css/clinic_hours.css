@@ -1,0 +1,19 @@
+.backend-body-content{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1rem;
+}
+
+#add-closed-day, #save-clinic-hours{
+	margin-top: 15px;
+}
+
+select{
+	width: 100%;
+	padding: 5px;
+}
+
+table button{
+	width: 100%;
+	padding: 5px;
+}

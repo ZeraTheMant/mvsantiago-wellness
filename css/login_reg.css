@@ -1,0 +1,127 @@
+#login-body, #register-body{
+	display: none;
+	transition: 0.5s ease-out;
+	/*height: 100px;*/
+}
+
+.relative-login-box{
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#health-conditions-container{
+	height: 100px;
+	width: 540px;
+	border: 1px solid #e5e5e5;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+#health-conditions-container p{
+	margin: 0;
+}
+
+#health-conditions-container input{
+	vertical-align: middle;
+}
+
+#login-btn, #register-btn{
+	display: block;
+	box-sizing: border-box;
+	color: green;
+	padding: 10px;
+	background-color: white;
+	cursor: pointer;
+	border: 1px solid green;
+	font-family: arial;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#login-btn:hover{
+	color: white;
+	background-color: #98fb98;
+}
+
+#register-btn:hover{
+	color: white;
+	background-color: #98fb98;
+}
+
+.halved-in-three{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5px;
+}
+
+.relative-inner-box{
+	height: 40px;
+	width: 35px;
+	background-color: green;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	text-align: center;
+}
+
+.modal-body{
+	background-color: #eef7fa;
+	padding: 20px;
+}
+
+.switch-views{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.view-switch-msg{
+	font-size: 0.65rem;
+}
+
+#to-register, #to-login{
+	cursor: pointer;
+	color: green;
+}
+
+.popupContent{
+	width: 350px;
+
+}
+.wew{
+	width: 100%;
+}
+.login-inner-box, .other-boxes, #month-box{
+	margin-left: 35px;
+	box-sizing: border-box;
+	height: 40px;
+	padding: 5px;
+	display: block;
+	width: calc(100% - 35px);
+}
+
+#birth-date{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5px;
+}
+
+#two-box{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+}
+
+
+/*#register-password, #register-password-confirm{
+	width: calc(100% - 26px);
+	width: 100%;
+}*/
+
+
+

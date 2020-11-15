@@ -1,0 +1,98 @@
+#category-info-text{
+	display: block;
+	text-align: center;
+}
+
+#category-info-text h1{
+	margin: 0;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 6rem;
+}
+
+#opacity-color{
+	opacity: 0.7;
+}
+
+#page-info-container{
+	display: grid;
+	grid-template-columns: 1fr 0.5fr;
+	grid-gap: 1rem;
+	padding: 20px;
+}
+
+#about-container{
+	line-height: 1.5;
+	font-size: 1.1rem;
+}
+
+#page-photo img{
+	width: 400px;
+}
+
+#mission-vision-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 30px;
+}
+
+#mission-vision-container h2{
+	text-align: center;
+}
+
+#mission-vision-container > div{
+	padding: 20px;
+}
+
+#vision{
+	background-color: green;
+	color: white;
+}
+
+#mission{
+	background-color: #DCDCDC;
+}
+
+#staff-header{
+	text-align: center;
+	color: green;
+}
+
+#staff-container{
+	margin-top: 60px;
+}
+
+.aaa{
+	float: left;
+	margin-right: 1rem;
+}
+
+#staff-profiles{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2rem;
+	justify-items: center;
+	margin-top: 40px;
+	margin-bottom: 100px;
+	padding: 2rem;
+}
+
+.provider-profile{
+	text-align: center;
+	background-color: #DCDCDC;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.whew{
+	text-align: left;
+}
+
+.provider-thumb{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 1px solid black;
+}

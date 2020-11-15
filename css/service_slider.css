@@ -1,0 +1,122 @@
+.main-banner{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	margin: 0;
+	position: relative;
+}
+
+
+.imgban{
+	background-size: cover;
+	backround-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	top: -85px;
+	transition: all ease-in-out 500ms;
+	-webkit-transition: all ease-in-out 500ms;
+	-moz-transition: all ease-in-out 500ms;
+	-o-transition: all ease-in-out 500ms;
+}
+
+.imgban:nth-of-child(1n){
+	background-color:red;
+}
+
+.imgban:nth-of-child(odd){
+	background-color:blue;
+}
+
+.imgbanbtn{
+	width: 40px;
+	height: 40px;
+	border-radius: 4px;
+	position: absolute;
+	top: 180px;
+	z-index: 2000;
+	opacity: 0.8;
+	cursor: pointer;
+	background-size: 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: white;
+}
+
+.imgbanbtn:hover{
+	opacity: 1;
+}
+
+#imgbanbtn-prev{
+	left: 5px;
+	background-image: url('../img/left.png');
+}
+
+#imgbanbtn-next{
+	right: 5px;
+	background-image: url('../img/right.png');
+}
+
+#service-info{
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 1fr 0.5fr;
+	min-height: 400px;
+}
+
+#service-info-right{
+	background-color: gray;
+	color: white;
+	padding: 10px;
+}
+
+#service-providers img{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+.aligned-to-center{
+	align-items: center;
+
+}
+
+#service-info-right .aligned-to-center h3{
+	margin: 0;
+	font-size: 3rem;
+}
+
+.modal-halved h1{
+	color: green;
+	font-size: 4rem;
+	margin: 0;
+}
+
+#service-info-right .modal-halved h3{
+	border-bottom: 10px solid #98fb98;
+	padding-bottom: 5px;
+	display: inline-block;
+}
+
+.quotation-design-box{
+	height: 50px;
+	width: 50px;
+	font-size: 90px;
+}
+
+.inner-testimonial-box{
+	box-shadow: 1px 1px 3px 0 black;
+	font-style: italic;
+	font-size: 1.2rem;
+	padding: 10px;
+	text-align: initial;
+	min-height: 350px;
+	background-color: #ccc;
+	margin-right: 1rem;
+}
+
+.inner-testimonial-box p{
+	margin-top: 60px;
+}

@@ -1,0 +1,300 @@
+body{
+	background: white;
+	margin: 0;
+}
+
+#statistics-boxes{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1rem;
+}
+
+.dashboard-info-box{
+	background-color: #ffc04c;
+	position: relative;
+	box-sizing: border-box;
+	padding: 20px;
+	color: white;
+}
+
+.info-box-link{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.inner-box{
+	display: grid;
+	grid-template-columns: 0.5fr 1fr;
+	height: 100%;
+	align-items: center;
+}
+
+.inner-box p{
+	margin: 0;
+}
+
+.inner-box > div:nth-child(2){
+	text-align: right;
+}
+
+.number{
+	font-size: 4rem;
+}
+
+.box-info{
+	font-size: 1.5rem;
+}
+
+.fat-icon{
+	font-size: 5rem;
+}
+
+#dashboard-inner-content{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 1rem;
+	grid-gap: 1rem;
+}
+
+#calendar-header{
+	background-color: green;
+	color: white;
+}
+
+#calendar-header p{
+	margin: 0 0 1rem 0;
+}
+
+#present-calendar-container{
+	border: 1px solid #DCDCDC;
+}
+
+#hours-schedule{
+	margin: 1rem;
+}
+
+.backend-container{
+	display: grid;
+	grid-template-columns: 20% 80%;
+	min-height: 900px;
+}
+
+.backend-sidebar{
+	background: lightgreen;
+	padding: 10px;
+}
+
+.backend-page-body-container{
+	padding: 15px 15px 50px 15px;
+}
+
+#backend-profile-img{
+	display: block;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	margin: auto;
+	border: 1px solid black;
+}
+
+.backend-profile-name{
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.2rem;
+	color: green;
+	font-weight: bold;
+}
+
+.backend-profile-img-container{
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+}
+
+.header-link{
+	padding: 10px;
+	font-size: 1rem;
+	display: flex;
+	align-items: center;
+}
+
+.backend-sidebar-link{
+	text-decoration: none;
+	color: black;
+	display: block;
+	vertical-align: middle;
+}
+
+.backend-sidebar-link:hover{
+	color: green;
+}
+
+.backend-body-header{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	align-items: center;
+}
+
+#feeds-head{
+	color: white;
+	background-color: #C0C0C0;
+}
+
+#activity-feed{
+	border: 1px solid #DCDCDC;
+	overflow: hidden;
+}
+
+#activity-feed-body{
+	padding: 15px;
+	height: 100%;
+	box-sizing: border-box;
+	position: relative;
+}
+
+#pages-container{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+
+#activities-tab{
+	padding: 10px;
+	border-top: 5px solid red;
+	border-left: 1px solid #DCDCDC;
+	border-right: 1px solid #DCDCDC;
+	box-sizing: border-box;
+	display: inline-block;
+	text-align: center;
+}
+
+#activity-feed-content{
+	border-left: 1px solid #DCDCDC;
+	border-right: 1px solid #DCDCDC;
+	border-bottom: 1px solid #DCDCDC;
+	overflow-y: scroll;
+	/*height: 460px;*/
+	height: 425px;
+	display: grid;
+	grid-template-rows: repeat(10, 1fr);
+}
+
+/*#appointment-stats{
+	height: 400px;
+}
+
+#present-calendar-container{
+	position: relative;
+	height: 500px;
+}*/
+
+#shit{
+	border-bottom: 1px solid #DCDCDC;
+}
+
+#activities-tab-container{
+	box-sizing: border-box;
+	display: grid;
+	grid-template-columns: 90px 1fr;
+}
+
+.feed-row{
+	border-bottom: 1px solid #DCDCDC;
+	padding: 10px;
+	font-size: 0.9rem;
+	display: grid;
+	grid-template-columns: 1fr 150px;
+}
+
+.feed-close-icon{
+	cursor: pointer;
+	color: red;
+}
+
+#feeds-head, #calendar-header p{
+	padding: 10px;
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+.row-date{
+	font-style: italic;
+	color: gray;
+}
+
+#hours-schedule, #activity-feed-body{
+	height: 500px;
+}
+
+#hours-schedule{
+	overflow-y: scroll;
+}
+
+.feed-row div:nth-child(2){
+	justify-self: end;
+}
+
+.backend-logo-container{
+	background: #d3d3d3;
+	display: grid;
+	grid-template-columns: 0.75fr 1fr;
+	align-items: center;
+}
+
+.backend-logo-container h1{
+	margin: 0;
+}
+
+.backend-logo-container img{
+	width: 50%;
+}
+
+#testimonial-status-container{
+	margin-top: 30px;
+}
+
+#testimonial-status, #providers-select-user{
+	padding: 5px;
+}
+
+#providers-select-user{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.modal-thirded{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5px;
+}
+
+#save-client-services-settings, #create-report{
+	border: 0;
+	background: green;
+	color: white;
+	padding: 5px;
+}
+
+.centered-all{
+	text-align: center;
+}
+
+#appointment-view, #client-status{
+	padding: 5px;
+}
+
+#logo-img-holder{
+	height: 300px;
+	width: 400px;
+}
+
+#logo-section{
+	width: 100%;
+	text-align: center;
+}
+
+#logo-btn-container{
+	margin-top: 10px;
+}

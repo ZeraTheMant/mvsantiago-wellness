@@ -1,0 +1,110 @@
+div.user-info-row:nth-of-type(even){
+	background-color: #ccc;
+}
+
+div.user-info-row:nth-of-type(odd){
+	background-color: #f2f2f2;
+}
+
+.user-info-row{
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	padding: 15px;
+}
+
+.backend-body-content{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.previewImg{
+	height: 75px;
+	width: 75px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+#changeUserImgBtn{
+	display: inline-block;
+	background-color: #eef7fa;
+	cursor: pointer;
+	border: 0;
+	padding: 5px;
+	position: absolute;
+	top: 35%;
+	left: 100px;
+}
+
+#change-password-btn{
+	background-color: #eef7fa;
+	cursor: pointer;
+	border: 0;
+	padding: 5px;
+}
+
+.userInfoField{
+	color: 	#778899;
+	font-weight: bold;
+}
+
+.userInfoValueInput{
+	box-sizing: border-box;
+	width: 300px;
+	padding: 5px;
+}
+
+
+#save-user-settings{
+	cursor: pointer;
+	color: white;
+	border: 0;
+	border-radius: 3px;
+	background-color: #72bcd4;
+}
+
+.zero-margin{
+	margin: 0;
+}
+
+#change-password-form{
+	margin: 0;
+}
+
+#relative-div{
+	position: relative;
+}
+
+#changeUserImgBtn:hover, #change-password-btn:hover{
+	background-color: #add8e6;
+	transition: 0.5s ease-out;
+}
+
+#uploadPhoto{
+	opacity: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+.modal-preview-img{
+	height: 100px;
+	width: 100px;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+#modal-img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.modal-img-btn{
+	cursor: pointer;
+	color: white;
+	background-color: green;
+	padding: 5px;
+	position: absolute;
+	top: 40%;
+	left: 150px;
+}
